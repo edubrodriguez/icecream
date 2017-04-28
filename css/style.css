@@ -1,0 +1,431 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----Our Ice Cream cursor-------
+https://image.flaticon.com/icons/png/128/135/135584.png*/
+html {
+  cursor: url("#"), auto;
+}
+
+/*====================================
+Front Page
+=====================================*/
+
+/*Container
+=====================================*/
+.container {
+  background: #665656;
+  color: #efe6e6;
+  font-family:Open sans, sans-serif;
+}
+
+/*banner
+=====================================*/
+
+.main-banner {
+  background: url(../images/banner_icecream_2.jpg)no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+  color:#efe6e6;
+}
+
+.banner-text {
+  font-size: 30px;
+  text-align: left;
+  padding-left: 40%;
+}
+
+.banner-text span {
+    font-size: 15px;
+}
+
+/*Nav Bar
+=====================================*/
+
+.main-nav {
+    width: 100%;
+    height: 100px;
+    background: #FCF9F0;
+    border: 4px groove #FFE3B9;
+    font-family: 'Acme', sans-serif;
+  }
+
+.main-nav ul {
+    list-style: none;
+  }
+
+.main-nav ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 60px;
+    }
+
+.main-nav ul li a {
+    transition: 0.5s;
+    font-size: 25px;
+    text-decoration: none;
+    color: #6b3e26;
+    display: inline-block;
+    padding: 5px ;
+}
+
+.main-nav ul li a:hover {
+    background: #c2f2d0 ;
+    color: #F5B1AF;
+    border-radius:10px;
+    font-weight: 700;
+}
+
+
+/*Sections
+=====================================*/
+
+.row {
+  width: 100%;
+  overflow: auto;
+  border: 10px solid #efe6e6;
+  padding: 30px;
+  color:#c2f2d0;
+  
+} 
+
+.row p {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.col-2 {
+  width: 50%;
+  float: left;
+}
+
+.edu {
+  text-align: center;
+  display: inline;
+  float: left;
+  
+}
+
+.edu p {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+.edu-sec {
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+  padding: 60px;
+  border: 5px solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.kay {
+  text-align: center;
+  display: inline;
+  float: left;
+}
+
+.kay p {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+.kay-sec {
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+  padding: 60px;
+  border: 5px solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hann {
+  text-align: center;
+  display: inline;
+  float: left;
+}
+
+.hann p {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+}
+
+.hann-sec {
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+  padding: 60px;
+  border: 5px solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.pink-text {
+  color:  #F5B1AF;
+}
+
+h1 {
+  font-family: Acme, sans-serif;
+  font-size: 40px;
+  margin: 30px 0px;
+}
+
+
+
+img {
+  height: 250px;
+  border: solid 5px;
+  margin: 30px 0px 30px 0px ;
+}
+/*Footer
+=====================================*/
+
+footer img:first-child {
+  border-radius: 50%;
+  width: 15%;
+  /*padding: 5px;*/
+}
+
+footer img:nth-child {
+  border-radius: 50%;
+  width: 15%;
+  /*padding: 5px;*/
+}
+
+footer img:nth-child {
+  border-radius: 50%;
+  width: 15%;
+  /*padding: 5px;*/
+}
+
+footer img:hover {
+  opacity: 0.50;
+  background-color: #c94c4c;
+  transition: 0.2s;
+}
+
+footer h3 {
+  padding: 20px;
+}
+
+footer h3:hover {
+  color: #bc5a45;
+  font-family: fantasy;
+  font-size: 2em;
+  transition: 0.2s;
+}
+
+footer h4 {
+  padding: 20px;
+}
+
+footer h4:hover {
+  color:#c94c4c;
+  font-family: fantasy;
+  font-size: 1.5em; 
+  transition: 0.2s;
+}
+
+nav-footer {
+  padding: 20px;
+}
+
+#kayce {
+  margin-left:60px;
+  padding: 70px;
+}
+
+#kayce:hover {
+  color: #ff6f69;
+  font-size: 2em;
+  font-family: fantasy;
+  transition: 0.2s;
+}
+
+#hannah {
+  margin-left:60px;
+  margin-right:20px;
+  /*padding:  25px;*/
+}
+
+#hannah:hover {
+  color: #e06377;
+  font-size: 2em;
+  font-family: fantasy;
+  transition: 0.2s;
+}
+
+#eduardo {
+  margin:20px;
+  padding: 70px;
+}
+
+#eduardo:hover {
+  color: #5b9aa0;
+  font-size: 2em;
+  font-family: fantasy;
+  transition: 0.2s;
+}
+
+footer {
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+  padding: 20px;
+  border: 5px solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*================
+Hanna's Page========*/
+
+.h-body {
+  padding: 0px 0px 100px 0px;
+  width: 50%;
+  margin: auto;
+}
+
+.hannahdd {
+  list-style-type: none;
+  padding-left:20px;
+
+}
+
+.hannahdt {
+  padding: 10px 0px 5px 0px;
+  color: #e06377;
+  font-family: Acme, sans-serif;
+  font-size: 40px;
+ 
+  
+}
+
+.hann-sec-b {
+  margin: 20px;
+  width: 90%;
+  padding: 60px;
+  border: 5px solid;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hannah-image {
+  margin: auto;
+  text-align:center;
+}
+
+/*====================================
+Kayce's Page */
+
+.content {
+  text-align: center;
+  margin: auto;
+}
+
+.h1 p img {
+  width: 200px;
+  height: 200px;
+}
+
+.kcheadings {
+  font-family: Acme, sans-serif;
+  font-size: 60px;
+  margin: 30px 0px;
+  /*text-decoration: underline;*/
+  text-shadow: 5px 5px #000000;
+  text-align: center;
+}
+/*====================================
+Eduardo's Page
+=====================================*/
+
+.intro {
+  border: 5px solid;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.intro h1:hover {
+  color: #bc5a45;
+  font-family: fantasy;
+  font-size: 2em;
+  transition: 0.2s;
+}
+
+.section {
+  border: 5px solid;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section h2:hover {
+  color: #bc5a45;
+  font-family: fantasy;
+  font-size: 2em;
+  transition: 0.2s;
+}
+
+.section li {
+  list-style-type: none;
+}
+
+.video {
+  border: 5px solid;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.video h3:hover {
+  color: #bc5a45;
+  font-family: fantasy;
+  font-size: 2em;
+  transition: 0.2s;
+}
+
+.video iframe {
+  border: 5px solid;
+  padding: 5px;
+}
+
+/*Media Query for Responsive Web Design
+=====================================*/
+@media(max-width:700px) {
+  .thing-1 {
+    width: 100%;
+  }
+  .thing-2 {
+    width: 100%;
+  }
+}
+/*===================================*/
